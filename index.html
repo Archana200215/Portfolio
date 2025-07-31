@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Stack Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 80px 0;
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .hero {
+      background: #f8f9fa;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: #6c757d;
+    }
+    .skills .progress {
+      height: 20px;
+    }
+    footer {
+      background: #212529;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    #services {
+  background: #f4f4f4;
+  padding: 60px 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.service-card p {
+  color: #555;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Archana R</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav" id="menu">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1><span style="color:gray">Hi, I'm </span>Archana R</h1>
+      <h5 style="color:blue">Full Stack Web Developer | HTML, CSS, JS, Bootstrap, Reactjs, Python, Django, PHP</h5>
+     <p class="lead">
+     A creative and passionate Full Stack Web Developer<br>
+    I specialize in building fast, responsive, and scalable web applications using modern technologies.
+     </p>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="text-center mb-4" style="color:blue">About Me</h2>
+      <p class="text-center">I'm a passionate full stack developer with experience in building modern web applications. I love working with front-end technologies like HTML, CSS, JS as well as back-end tools like  PHP, python, Django, and MySQL.  
+  My expertise lies in combining front-end design with efficient back-end logic. I enjoy solving complex problems, 
+  learning new technologies, and delivering high-quality solutions. From creating sleek user interfaces with HTML, CSS, 
+  JavaScript, Reactjs and Bootstrap to implementing robust functionality with PHP, Python (Django),Mysql.Designing and building dynamic web applications— I love it all!
+</p>
+<ul>
+  <li>🎯 Goal-oriented and detail-driven</li>
+  <li>💬 Strong communication and teamwork skills</li>
+  <li>🔧 Always up for debugging and optimization</li>
+  <li>🌐 Interested in freelancing and full-time roles</li>
+</ul>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4" style="color:blue">Skills</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h5>HTML</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" style="width: 95%;">95%</div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h5>CSS & Bootstrap</h5>
+          <div class="progress">
+            <div class="progress-bar bg-info" style="width: 90%;">90%</div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h5>JavaScript/Reactjs</h5>
+          <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 85%;">85%</div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h5>PHP / Django</h5>
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 80%;">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Services Section -->
+<section id="services">
+  <h2 style="text-align: center; color:blue" >Services</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <h3>🧠 Problem Solving</h3>
+      <p>Efficient algorithms, data structures, and logic building for technical challenges.</p>
+    </div>
+    <div class="service-card">
+      <h3>🌐 Web Development</h3>
+      <p>Modern websites using HTML, CSS, JavaScript, Bootstrap,Wordpress, Reactjs, PHP, and Django,Mysql.</p>
+    </div>
+    <div class="service-card">
+      <h3>📱 Responsive Design</h3>
+      <p>Mobile-first design principles for seamless experience across all devices.</p>
+    </div>
+    <div class="service-card">
+      <h3>🛠️ Debugging & Optimization</h3>
+      <p>Fixing bugs, optimizing code, and enhancing website performance.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="text-center mb-4" style="color:blue">Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="assets/images/d1.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Foodie Website</h5>
+              <p class="card-text">Built with Html,Css,Javascript,Bootstrap</p>
+              <!-- <a href="https://github.com/yourusername/stylepick" class="btn btn-outline-dark btn-sm" target="_blank">View Code</a> -->
+              <a href="https://archu-foodie-website.netlify.app/" class="btn btn-outline-primary btn-sm" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="assets/images/d2.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Stylishpic Website</h5>
+              <p class="card-text">Built using HTML, CSS, JS, Bootstrap, Reactjs</p>
+              <a href="https://archana-stylishpic-website.netlify.app/" class="btn btn-outline-primary btn-sm" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="assets/images/d31.png" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">E-commerce Website(Django)</h5>
+                <p class="card-text">Built using HTML, CSS, JS, Bootstrap, Django and Mysql</p>
+                <a href="https://github.com/Archana200215/stylepick" class="btn btn-outline-primary btn-sm" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="assets/images/d51.png" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <h5 class="card-title">Newspaper Website</h5>
+                <p class="card-text">Built using HTML, CSS, JS, Bootstrap, PHP & MySQL.</p>
+                <a href="https://archana200215.github.io/newspaper/" class="btn btn-outline-primary btn-sm" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="assets/images/d4.png" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Golf-Club Website</h5>
+                <p class="card-text">Built using HTML, CSS, JS, Bootstrap.</p>
+                <a href="https://golf-club-archana.netlify.app/" class="btn btn-outline-primary btn-sm" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="assets/images/d6.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce Website(Php)</h5>
+              <p class="card-text">Full-featured blog with user auth using PHP & MySQL.</p>
+              <a href="https://archana200215.github.io/newspaper/" class="btn btn-outline-primary btn-sm" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4" style="color:blue">Contact</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" placeholder="Your Message" rows="4" required></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-dark">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Archana | Full Stack Developer</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
